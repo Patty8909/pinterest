@@ -1,54 +1,64 @@
-
-.icon {
-    font-size: 30px;
-    color: gray;
-}
-
-.icon-pinterest {
-    color: red;
-    font-size: 40px;
-}
-
-header {
-    outline: 1px solid blue;
+/*setear css*/
+* {
     margin: 0;
-    height: 50px;
-
+    padding: 0;
 }
 
-div {
-    outline: 1px solid green;
-    display: inline-block;
-}
-
-p {
-    outline: 1px solid red;
-    display: inline;
-}
-
+/*estilos generales*/
 body {
     font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    
+}
+/*estilos para las imágenes*/
+.figure {
+    column-count: 5;
+    
+    margin: 30px 10px 50px;
 }
 
-.search {
-    height: inherit;
-    width: 500px;
+img {
+    width: 250px;
+    border-radius: 10px;
+    /*outline: 1px solid green;*/
 }
 
-figure img {
-  width: 18%;
-  border-radius: 25px;
-  outline: 1px solid red;
-  margin: 10px;
-  display: inline;
-}
-
-main {
-    outline: 1px solid orangered;
-    margin: 0;
-}
-
-.size {
+.figure figure {
     margin: 0px;
     margin-top: 15px;
 }
+
+/*estilos para el header*/
+header {
+    /*outline: 1px solid blue;*/
+    margin: 0;
+    height: 70px;
+    border-bottom: 1px solid rgb(173,167,167);
+    color: rgb(173,167,167); 
+}
+ul li {
+    float: left;
+    list-style: none;
+    /*outline: 1px solid green;*/
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.icon-pinterest {
+    font-size: 30px;
+    color: #BD081C;
+}
+.search {
+    width: 400px;
+   
+}
+
+.size {
+    width: 900px;
+    /*outline: 1px solid yellow;*/
+    background-color: #EFEFEF;
+    border-radius: 3px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+
